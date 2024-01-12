@@ -218,6 +218,5 @@ ax.legend()
 
 # %% [markdown]
 """
-As the degree of the polynomial increases, the insample MSE decreases,
-while the outsample MSE increases, being a clear sign of overfitting. In the plot of observed versus predicted values is clear that, even though a higher degree polynomial fits the training data better, higher degree polynomials tipically have highly volatile predictions.
+As the degree of the polynomial increases, the in-sample MSE decreases, while the out-of-sample MSE increases, indicating a clear sign of overfitting. In the plot of observed versus predicted values, it is clear that even though a higher-degree polynomial fits the training data better, higher-degree polynomials typically have highly volatile predictions.
 """
